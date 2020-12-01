@@ -6,7 +6,8 @@
 定义所有测试数据
 """
 import os
-from cs_apitest.apitest.params import tools
+
+from apitest.params import tools
 
 path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
 
