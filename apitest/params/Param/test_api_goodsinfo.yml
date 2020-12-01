@@ -1,0 +1,11 @@
+test_api_goodsinfo:
+  desc: 商品信息
+  parameters:
+    - test:
+        name: 测试用例
+        request:
+          data:
+            goods_id: 10
+            class_id: 31
+          method: post
+          url: /goodsInfo

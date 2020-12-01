@@ -1,0 +1,13 @@
+test_api_orderlist:
+  desc: 获取订单列表
+  parameters:
+    - test:
+        name: 测试用例
+        request:
+          data:
+            page: 1
+            qty: 5
+            user_token: token
+          method: get
+          url: /orderList
+          expected: success

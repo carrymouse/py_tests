@@ -1,0 +1,8 @@
+test_conn1:
+  desc: 连接测试用例1
+  parameters:
+    - test:
+        name: 连接测试用例1
+        request:
+          method: get
+

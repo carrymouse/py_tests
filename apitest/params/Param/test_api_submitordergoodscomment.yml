@@ -1,0 +1,24 @@
+test_api_submitordergoodscomment:
+  desc: 提交商品评价信息
+  parameters:
+    - test:
+        name: 登录用例
+        request:
+          data:
+            user_name: test1
+            user_password: '123456'
+            user_unionid: 1
+          method: post
+          url: /login
+
+    - test:
+        name: 提交评价信息
+        request:
+          data:
+            user_token: token
+            order_goods_id: 74
+            comment_body: 很萌很可爱~
+            goods_evaluation: 4
+          method: post
+          url: /submitOrderGoodsComment
+          expected: "商品评价添加完成!"

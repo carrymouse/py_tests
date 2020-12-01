@@ -1,0 +1,11 @@
+test_api_addresslist:
+  desc: 获取配送地址
+  parameters:
+    - test:
+        name: 测试用例
+        request:
+          data:
+            user_token: token
+          method: post
+          url: /addressList
+          expected: success

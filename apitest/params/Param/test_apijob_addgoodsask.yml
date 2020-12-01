@@ -1,0 +1,12 @@
+test_apijob_addgoodsask:
+  desc: 提交商品评价信息
+  parameters:
+    - test:
+        name: 测试用例
+        request:
+          data:
+            goods_id: 1
+            goods_ask_content: sss
+          method: post
+          url: /addGoodsAsk
+          expected: ["添加商品咨询成功!"]

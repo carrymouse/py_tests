@@ -1,0 +1,23 @@
+[
+  {
+    "user_name": "test1",
+    "user_password": "123456",
+    "user_unionid": 1,
+    "goods_ask_content": "sss",
+    "goods_id": 1
+  },
+  {
+    "user_name": "test2",
+    "user_password": "123456",
+    "user_unionid": 2,
+    "goods_ask_content": "sss",
+    "goods_id": 2
+  },
+  {
+    "user_name": "test3",
+    "user_password": "123456",
+    "user_unionid": 3,
+    "goods_ask_content": "sss",
+    "goods_id": 1
+  }
+]

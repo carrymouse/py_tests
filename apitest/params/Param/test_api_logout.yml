@@ -1,0 +1,9 @@
+test_api_logout:
+  desc: 退出用例
+  parameters:
+    - test:
+        name: 退出登录用例
+        request:
+          method: post
+          url: /loginOut
+

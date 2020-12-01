@@ -1,0 +1,13 @@
+test_api_specialad:
+  desc: 文字广告测试用例
+  parameters:
+    - test:
+        name: 测试用例1
+        request:
+          data:
+            ad_code: ad_code
+          url: /specialAd
+          method: get
+
+
+

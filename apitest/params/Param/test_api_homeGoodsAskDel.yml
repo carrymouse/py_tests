@@ -1,0 +1,12 @@
+test_api_homegoodsaskdel:
+  desc: 删除我的咨询
+  parameters:
+    - test:
+        name: 测试用例
+        request:
+          data:
+            ask_id: 5
+            user_token: token
+          method: post
+          url: /homeGoodsAskDel
+          expected: success

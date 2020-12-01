@@ -1,0 +1,29 @@
+test_api_statistics:
+  desc: 获取统计信息
+  parameters:
+    - test:
+        name: 登录用例
+        request:
+          data:
+            user_name: test1
+            user_password: '123456'
+            user_unionid: 1
+          method: post
+          url: /login
+
+    - test:
+        name: 商品收藏信息用例
+        request:
+          data:
+            user_token: token
+            statis_type: favorites_num
+          method: post
+          url: /statistics
+
+
+    - test:
+        name: 退出登录用例
+        request:
+          method: post
+          url: /loginOut
+

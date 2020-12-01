@@ -1,0 +1,28 @@
+test_api_specialgoods:
+  desc: api内设置的商品
+  parameters:
+    - test:
+        name: 登录用例
+        request:
+          data:
+            user_name: test1
+            user_password: '123456'
+            user_unionid: 1
+          method: post
+          url: /login
+
+    - test:
+        name: 获取api内置商品用例
+        request:
+          data:
+            user_token: token
+            goods_code: 1
+          method: get
+          url: /specialGoods
+
+    - test:
+        name: 退出登录用例
+        request:
+          method: post
+          url: /loginOut
+

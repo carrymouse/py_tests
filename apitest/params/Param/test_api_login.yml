@@ -1,0 +1,14 @@
+test_api_login:
+  desc: 登录用例
+  parameters:
+    - test:
+        name: 登录用例
+        request:
+          data:
+            user_name: test1
+            user_password: '123456'
+            user_unionid: 1
+          method: post
+          url: /login
+
+

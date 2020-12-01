@@ -1,0 +1,10 @@
+test_api_goodsclass:
+  desc: 商品分类
+  parameters:
+    - test:
+        name: 测试用例
+        request:
+          data:
+            class_id: 1
+          method: post
+          url: /goodsClass

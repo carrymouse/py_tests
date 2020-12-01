@@ -1,0 +1,11 @@
+test_api_specialcms:
+  desc: 调用内置文章api
+  parameters:
+    - test:
+        name: 测试用例1
+        request:
+          data:
+            cms_code: example0
+          method: get
+          url: /specialCms
+          expected: ['售后服务', '联系我们', '关于我们']
