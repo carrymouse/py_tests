@@ -8,7 +8,6 @@ from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import os
-
 report_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, os.pardir, "report"))
 report_file = os.path.abspath(os.path.join(report_dir, "report.html"))
 
