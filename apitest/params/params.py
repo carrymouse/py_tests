@@ -245,7 +245,7 @@ class TestApiaddressList:
         expecteds.append(params[i]["test"]["request"].get("expected"))
 
 if __name__ == '__main__':
-    icm = TestApiaddressList()
+    icm = TestApijobLogin()
     print(icm.datas[0])
     print(icm.urls[0])
     print(icm.methods[0])

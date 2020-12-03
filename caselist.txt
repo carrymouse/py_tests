@@ -17,7 +17,7 @@
 #添加商品咨询
 #test_db_apijob_addgoodsask
 #获取配送地址
-test_db_api_addressList
+#test_db_api_addressList
 #订单列表
 #test_db_api_orderlist
 #删除我的咨询
