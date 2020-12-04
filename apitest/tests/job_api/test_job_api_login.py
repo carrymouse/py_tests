@@ -1,6 +1,6 @@
-# -*- codeing = utf-8
-
-
+# -*-coding:utf-8 -*-
+# !/usr/bin/python37
+# @Author:liulang
 import unittest
 #
 # from apitest.common.configHttp import ConfigHttp
