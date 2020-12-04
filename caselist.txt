@@ -1,27 +1,27 @@
 #连接测试
-#test_conn
+test_conn
 #获取用户商品收藏数
-#test_get_count_info
-#test_get_count_info_suite
+test_get_count_info
+test_get_count_info_suite
 #获取api内置广告
-#test_api_specialad
-#test_api_specialad_suite
+test_api_specialad
+test_api_specialad_suite
 #调用api内置文章
-#test_api_specialCms
+test_api_specialCms
 #api内设置商品
-#test_db_api_specialgoods
+test_db_api_specialgoods
 #商品分类 (BUG)
-#test_db_api_goodsclass
+test_db_api_goodsclass
 #商品信息
-#test_db_api_goodsinfo
+test_db_api_goodsinfo
 #添加商品咨询
-#test_db_apijob_addgoodsask
+test_db_apijob_addgoodsask
 #获取配送地址
-#test_db_api_addressList
+test_db_api_addressList
 #订单列表
-#test_db_api_orderlist
+test_db_api_orderlist
 #删除我的咨询
-#test_db_api_homegoodsaskdel
+test_db_api_homegoodsaskdel
 test_job_api_login
 
 
