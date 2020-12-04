@@ -1,0 +1,15 @@
+test_api_addcart:
+  desc: 添加商品到购物车(游客登录)
+  parameters:
+    - test:
+        name: 测试用例
+        request:
+          data:
+            goods_id: 10
+            class_id: 32
+            buy_goods_num: 2
+            user_unionid: 1
+            user_token: token
+          method: post
+          url: /addCart
+          expected: ["购物车添加成功!"]
