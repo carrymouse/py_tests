@@ -244,8 +244,22 @@ class TestApiaddressList:
         methods.append(params[i]["test"]["request"].get("method"))
         expecteds.append(params[i]["test"]["request"].get("expected"))
 
+class TestApiaddCart:
+
+    params = _getParameter('test_api_addcart')
+    urls = []
+    datas = []
+    methods= []
+    expecteds = []
+    for i in range(0, len(params)):
+        urls.append(params[i]["test"]["request"].get("url"))
+        datas.append(params[i]["test"]["request"].get("data"))
+        methods.append(params[i]["test"]["request"].get("method"))
+        expecteds.append(params[i]["test"]["request"].get("expected"))
+
+
 if __name__ == '__main__':
-    icm = TestApijobLogin()
+    icm = TestApiaddCart()
     print(icm.datas[0])
     print(icm.urls[0])
     print(icm.methods[0])
