@@ -1,5 +1,5 @@
 # -*-coding:utf-8 -*-
-# !/usr/bin/python3
+# !/usr/bin/python37
 # @Author:liulang
 import os
 import unittest
